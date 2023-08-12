@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.photo-card {
+  border: 2px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.photo-card img {
+  max-width: 100%;
+}
+
+.user-info {
+  margin-top: 10px;
+}
+.user-info p{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.App-header {
+  background-color: #4d72c9;
+  color: #f6ecec;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.App-header h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.user-photo {
+  padding: 10px;
+  text-align: left;
+  font-size: large;
+}
+
+
+
+
